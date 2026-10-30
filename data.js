@@ -19,8 +19,8 @@ My goal is to grow as a software developer with strong knowledge of backend engi
     "I believe in understanding how software works beyond the user interface — from backend architecture and databases to cloud infrastructure and deployment automation.",
   location: "Pune, Maharashtra, India",
   github: "https://github.com/soubhik-das-09",
-  linkedin: "https://linkedin.com/in/YOUR_LINKEDIN_USERNAME", // Replace with real URL
-  email: "your.email@example.com", // Replace with real email
+  linkedin: "https://www.linkedin.com/in/soubhik-das-b810b1352/", // Replace with real URL
+  email: "dassoubhik1101@example.com", // Replace with real email
   resume: "./resume.pdf", // Replace with actual resume PDF
   typingTexts: [
     "Java Backend Developer",
@@ -125,28 +125,7 @@ const projects = [
     status: "Live",
     type: "Frontend",
     highlight: false,
-  },
-  {
-    id: 3,
-    title: "UAV Basecamp",
-    subtitle: "Drone Monitoring & Management System",
-    description:
-      "A UAV monitoring and management project designed to monitor drone telemetry, battery levels, mission status, and automated charging workflows.",
-    tech: ["Python", "FastAPI", "React", "MQTT", "MAVLink", "PX4"],
-    features: [
-      "Real-time telemetry monitoring",
-      "Battery level monitoring",
-      "Mission status tracking",
-      "Automated charging logic",
-      "Backend API communication",
-      "Drone management dashboard",
-    ],
-    github: "#", // Replace with actual GitHub URL
-    live: null,
-    status: "In Progress",
-    type: "Full Stack",
-    highlight: false,
-  },
+  }
 ];
 
 const education = [
