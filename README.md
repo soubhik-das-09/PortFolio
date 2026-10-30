@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Soubhik Das — Developer Portfolio
 
 A modern, professional, and fully responsive developer portfolio website built with pure **HTML, CSS, and JavaScript**. No frameworks, no build tools — just open `index.html` in a browser.
@@ -142,3 +143,6 @@ const journey = {
 ---
 
 *Designed and developed by Soubhik Das*
+=======
+# PortFolio
+>>>>>>> ec020dae26d555cd6bae60763cb8dd7bf0ef7e09
