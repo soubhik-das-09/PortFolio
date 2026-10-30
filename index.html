@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Soubhik Das – Aspiring Software Developer | Java, Spring Boot, AWS, Docker. BCA student at Indira College, Pune." />
+  <meta name="keywords" content="Soubhik Das, Java Developer, Spring Boot, Backend Developer, Cloud Engineer, DevOps, AWS, Docker, Pune" />
+  <meta name="author" content="Soubhik Das" />
+  <title>Soubhik Das – Software Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header id="navbar" role="banner"></header>
+  <div id="mobileMenu" class="mobile-menu"></div>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="home">
+      <div id="hero">
+        <div class="container">
+          <div class="hero-inner">
+            <div id="hero-left"></div>
+            <div id="hero-right"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section-alt">
+      <div class="container">
+        <div class="text-center" style="margin-bottom:40px;">
+          <div class="section-label">About Me</div>
+          <h2 class="section-title">Passionate About Building Things</h2>
+          <p class="section-desc">A BCA student on a journey through backend engineering, cloud computing, and DevOps.</p>
+        </div>
+        <div id="about-content"></div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="text-center" style="margin-bottom:36px;">
+          <div class="section-label">Technical Skills</div>
+          <h2 class="section-title">My Tech Stack</h2>
+          <p class="section-desc">Technologies I work with, organized by domain.</p>
+        </div>
+        <div id="skills-content"></div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <div class="text-center" style="margin-bottom:36px;">
+          <div class="section-label">Projects</div>
+          <h2 class="section-title">Things I've Built</h2>
+          <p class="section-desc">Projects built to explore backend architecture, cloud deployment, and full-stack development.</p>
+        </div>
+        <div class="projects-grid" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="text-center" style="margin-bottom:36px;">
+          <div class="section-label">Education</div>
+          <h2 class="section-title">Academic Background</h2>
+        </div>
+        <div id="education-content"></div>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section id="journey" class="section section-alt">
+      <div class="container">
+        <div class="text-center" style="margin-bottom:36px;">
+          <div class="section-label">My Journey</div>
+          <h2 class="section-title">My Learning Path</h2>
+          <p class="section-desc">A structured roadmap of my technical growth across backend, cloud, and DevOps.</p>
+        </div>
+        <div class="journey-grid" id="journey-grid"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="text-center" style="margin-bottom:36px;">
+          <div class="section-label">Contact</div>
+          <h2 class="section-title">Let's Connect</h2>
+          <p class="section-desc">Open to opportunities, collaborations, and meaningful conversations.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="reveal">
+            <div class="contact-info-title">Get In Touch</div>
+            <p class="contact-info-desc">
+              I'm always open to connecting with developers and recruiters, discussing new opportunities, or talking about software development and cloud technologies.
+            </p>
+            <div class="contact-links" id="contact-links"></div>
+          </div>
+          <div class="contact-form reveal reveal-d1">
+            <form id="contactForm" novalidate autocomplete="off">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="f-name">Your Name</label>
+                  <input type="text" id="f-name" placeholder="John Doe" />
+                  <div class="form-error" id="err-name"></div>
+                </div>
+                <div class="form-group">
+                  <label for="f-email">Email Address</label>
+                  <input type="email" id="f-email" placeholder="john@example.com" />
+                  <div class="form-error" id="err-email"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="f-subject">Subject</label>
+                <input type="text" id="f-subject" placeholder="Job Opportunity / Collaboration / Query" />
+                <div class="form-error" id="err-subject"></div>
+              </div>
+              <div class="form-group">
+                <label for="f-message">Message</label>
+                <textarea id="f-message" placeholder="Write your message here…"></textarea>
+                <div class="form-error" id="err-message"></div>
+              </div>
+              <button type="submit" class="btn btn-primary btn-form">Send Message</button>
+              <div id="formStatus" class="form-status" role="alert" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-row">
+        <div>
+          <div class="footer-name">Soubhik Das</div>
+          <div class="footer-sub">Aspiring Software Developer · Cloud &amp; DevOps Enthusiast</div>
+        </div>
+        <div class="footer-socials" id="footer-socials"></div>
+      </div>
+      <div class="footer-copy">
+        <span>Designed &amp; built by Soubhik Das · © <span id="footer-year"></span></span>
+        <button class="back-top" onclick="backToTop()">↑ Back to top</button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
